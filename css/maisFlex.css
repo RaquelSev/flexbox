@@ -1,0 +1,40 @@
+//Para relembrar e outros conceitos
+
+.flexcontainer: last-child {
+  margin-top: 20em;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+div {
+  height: 2em;
+  width: 2em;
+}
+div:nth-child(1) {
+  background-color: red;
+  width: 4em;
+  height: 4em;
+}
+div:nth-child(2) {
+  background-color: blue;
+}
+div:nth-child(3) {
+  background-color: green;
+}
+div:nth-child(4) {
+  background-color: yellow;
+}
+div:nth-child(5) {
+  background-color: pink;
+}
+div:nth-child(6) {
+  background-color: black;
+}
+div:nth-child(7) {
+  background-color: orange;
+}
+div:nth-child(8) {
+  background-color: silver;
+}
+/*Fim do setup inicial */
