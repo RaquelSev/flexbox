@@ -1,15 +1,15 @@
 //Para relembrar e outros conceitos
 
-.flexcontainer: last-child {
-  margin-top: 20em;
+.flexContainer:last-child {
+  margin-top: 50%;
 }
 body {
   margin: 0;
   padding: 0;
 }
 div {
-  height: 2em;
-  width: 2em;
+  height: 4em;
+  width: 4em;
 }
 div:nth-child(1) {
   background-color: red;
@@ -38,3 +38,23 @@ div:nth-child(8) {
   background-color: silver;
 }
 /*Fim do setup inicial */
+
+.flexContainer {
+  display: flex;
+  /* flex-direction: column;
+  align-items: center; */
+}
+
+.flexItem {
+  /* flex-grow: 2;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-shrink: 1;  */
+  flex: 1 1;
+  flex-basis: 25%;
+}
+
+.primeiro {
+  //flex-grow: 3;
+  flex-shrink: 2;
+}
